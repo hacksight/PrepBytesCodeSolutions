@@ -3,7 +3,7 @@ int main()
 {
     int t;
     scanf("%d",&t);
-    // Test case loop
+    
     while(t-->0)
     {
         int n;
