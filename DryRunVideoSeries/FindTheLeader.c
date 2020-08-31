@@ -25,7 +25,7 @@ int main()
             if(curr_leader<=arr[i])
             {
                 curr_leader=arr[i];
-                // Printing the current leader
+                
                 printf("%d ",curr_leader);
             }
         }
