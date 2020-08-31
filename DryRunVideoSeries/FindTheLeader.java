@@ -15,7 +15,7 @@ public class Main {
       {
         arr[i]=sc.nextInt();
       }
-      // Assigning the last element as current leader
+     
       int curr_leader = arr[n-1];
       System.out.print(curr_leader+" ");
       // Checking each element with the current leader, and updating the leader when required

@@ -3,14 +3,14 @@ int main()
 {
     int t;
     scanf("%d",&t);
-    // Test case loop
+    
     while(t-->0)
     {
         int n;
         scanf("%d",&n);
         int arr[n];
         int i;
-        // Taking array as input
+        
         for(i=0;i<n;i++)
         {
             scanf("%d",&arr[i]);
@@ -25,7 +25,7 @@ int main()
             if(curr_leader<=arr[i])
             {
                 curr_leader=arr[i];
-                // Printing the current leader
+                
                 printf("%d ",curr_leader);
             }
         }
